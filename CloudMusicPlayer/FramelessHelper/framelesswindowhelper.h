@@ -20,9 +20,6 @@ public:
     void classBegin() Q_DECL_FINAL;
     void componentComplete() Q_DECL_FINAL;
 
-public slots:
-    void addWindow(const QString &objName);
-    void addWindow(QObject *obj);
     // QObject interface
 public:
     bool eventFilter(QObject *watched, QEvent *event) Q_DECL_OVERRIDE;
