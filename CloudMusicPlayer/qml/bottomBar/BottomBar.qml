@@ -71,12 +71,10 @@ Rectangle {
                 id: playSlider
                 Layout.alignment: Qt.AlignVCenter
                 onPositionChanged: {
-                    if (!player.hasAudio)
-                        return
-                    if (pressed)
-                        playTimeText.text = ScriptHelper.formatTime(position * player.duration)
-                    else
+                    if (player.hasAudio && pressed) {
                         player.seek(position * player.duration)
+                        updateProgress()
+                    }
                 }
 
                 Layout.fillWidth: true
