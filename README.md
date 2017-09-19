@@ -7,7 +7,8 @@ QML版网易云音乐
 
 taglib地址为：http://taglib.org/， 该库使用cmake进行编译<br />
 QtAV地址为：https://github.com/wang-bin/QtAV ，需要注意的是QtAV库在windows下要多下一个依赖库<br />
-详情请看：https://github.com/wang-bin/QtAV/wiki/Build-QtAV
+详情请看：https://github.com/wang-bin/QtAV/wiki/Build-QtAV <br />
+QML无边框窗口缩放可以转至本人的另一个仓库：https://github.com/lowbees/FramlessWindowHelper
 
 # 2017/09/19更新 #
 目前基本已经完成本地音乐的播放
