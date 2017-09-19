@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>qml/titleBar/TitleBar.qml</file>
+        <file>qml/bottomBar/BottomBar.qml</file>
+        <file>qml/leftBar/LeftBar.qml</file>
+        <file>qml/rightBar/RightBar.qml</file>
+        <file>qml/Line.qml</file>
+        <file>images/title.png</file>
+        <file>qml/rightBar/LocalMusic.qml</file>
+        <file>qml/others/Line.qml</file>
+        <file>qml/others/TableView.qml</file>
+        <file>qml/others/help.js</file>
+        <file>qml/others/FontButton.qml</file>
+        <file>qml/others/Slider.qml</file>
+    </qresource>
+</RCC>

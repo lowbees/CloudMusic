@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "section": "推荐",
+            "canCollapse": false,
+            "addIcon":  "",
+            "lists": [
+                { "icon": "\uef51", "name": "发现音乐", "url": "" },
+                { "icon": "\uec0b", "name": "私人FM", "url": "" },
+                { "icon": "\uf3ac", "name": "MV", "url": "" },
+                { "icon": "\ufb37", "name": "朋友", "url": "" }
+            ]
+        },
+        {
+            "section": "我的音乐",
+            "canCollapse": false,
+            "addIcon":  "",
+            "lists":[
+                { "icon": "\uf8b0", "name": "本地音乐", "url": "LocalMusic.qml" },
+                { "icon": "\uef26", "name": "下载管理", "url": "" },
+                { "icon": "\uee24", "name": "我的音乐云盘", "url": "" },
+                { "icon": "\uf3ae", "name": "我的歌手", "url": "" },
+                { "icon": "\uf8c7", "name": "我的MV", "url": "" }
+            ]
+        },
+        {
+            "section": "创建歌单",
+            "canCollapse": true,
+            "addIcon":  "",
+            "lists":[
+                { "icon": "\ufc71", "name": "我喜欢的音乐", "url": "" }
+            ]
+        },
+        {
+            "section": "收藏的歌单",
+            "canCollapse": false,
+            "addIcon":  "",
+            "lists":[
+                { "icon": "\uf912", "name": "岁月如歌", "url": "" }
+            ]
+        }
+        
+    ]
+}
