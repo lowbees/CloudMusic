@@ -49,7 +49,7 @@ function formatSize(size, isSpeed) {
 function playRandom(count) {
     if (count <= 0)
         return -1;
-    return Math.round(Math.random() * count)
+    return Math.round(Math.random() * (count - 1))
 }
 
 function playInorder(current, count) {
