@@ -12,3 +12,11 @@ QML无边框窗口缩放可以转至本人的另一个仓库：https://github.co
 
 # 2017/09/19更新 #
 目前基本已经完成本地音乐的播放
+
+
+# 2017/09/23更新 #
+更新首页个性推荐布局，本项目采用https://github.com/Binaryify/NeteaseCloudMusicApi 来获取网易云api，你需要nodejs的运行环境
+
+问题1：网络图片加载太慢
+问题2：网络图片的频繁获取导致服务器拒绝
+问题3：QtAV的bug，暂停的时候seek然后再播放会导致重新播放
